@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-11T14:59:54 IST" name="Default suite" finished-at="2023-09-11T14:59:56 IST" duration-ms="1975">
+  <suite started-at="2023-11-17T16:23:02 IST" name="Default suite" finished-at="2023-11-17T16:23:04 IST" duration-ms="2242">
     <groups>
     </groups>
-    <test started-at="2023-09-11T14:59:54 IST" name="Default test" finished-at="2023-09-11T14:59:56 IST" duration-ms="1975">
-      <class name="DataTesting.Colabdataportal">
-        <test-method signature="Braindata()[pri:0, instance:DataTesting.Colabdataportal@209da20d]" started-at="2023-09-11T14:59:55 IST" name="Braindata" finished-at="2023-09-11T14:59:56 IST" duration-ms="1944" status="PASS">
+    <test started-at="2023-11-17T16:23:02 IST" name="Default test" finished-at="2023-11-17T16:23:04 IST" duration-ms="2242">
+      <class name="SanityTesting.getregiondata_API">
+        <test-method signature="testGetRegionDataAPI()[pri:0, instance:SanityTesting.getregiondata_API@1b2abca6]" started-at="2023-11-17T16:23:02 IST" name="testGetRegionDataAPI" finished-at="2023-11-17T16:23:04 IST" duration-ms="2202" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Braindata -->
-      </class> <!-- DataTesting.Colabdataportal -->
+        </test-method> <!-- testGetRegionDataAPI -->
+      </class> <!-- SanityTesting.getregiondata_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

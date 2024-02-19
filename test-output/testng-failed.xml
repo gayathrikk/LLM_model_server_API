@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SanityTesting.getregiondata_API">
+      <class name="SanityTesting.Contact_api">
         <methods>
           <include name="testGetRegionDataAPI"/>
         </methods>
-      </class> <!-- SanityTesting.getregiondata_API -->
+      </class> <!-- SanityTesting.Contact_api -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SanityTesting.cellannotation_apis">
+      <class name="SanityTesting.Registration_apis">
         <methods>
-          <include name="Save_API"/>
+          <include name="atlasregistration"/>
         </methods>
-      </class> <!-- SanityTesting.cellannotation_apis -->
+      </class> <!-- SanityTesting.Registration_apis -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

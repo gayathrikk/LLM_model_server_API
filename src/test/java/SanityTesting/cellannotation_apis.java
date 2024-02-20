@@ -263,5 +263,27 @@ public class cellannotation_apis {
 	         }
 	         Assert.assertEquals(statusCode1, 200, "API request to save firstpass failed");  
 	 }
+	 
+	 @Test(priority=13)
+	 public void activity()
+	 {
+		 String jsonBody1 = "{\"user\":57,\"action\":\"Cell Annotation\",\"info\":\"SS-15:10:1012\"}";
+    	 Response response1 = RestAssured
+             .given()
+                 .auth()
+                 .preemptive()
+                 .basic("admin", "admin")
+                 .contentType(ContentType.JSON)
+                 .body(jsonBody1)
+             .when()
+                 .post("https://apollo2.humanbrain.in/activities/Activity/");
+    	 int statusCode1 = response1.getStatusCode();
+    	 if (statusCode1 == 201) {
+             System.out.println("API request to Brainaccess Activity passed. Status code: " + statusCode1);
+         } else {
+             System.out.println("API request to Brainaccess Activity failed. Status code: " + statusCode1);
+         }
+         Assert.assertEquals(statusCode1, 201, "API request to Activity failed");  
+	 }
 
 }

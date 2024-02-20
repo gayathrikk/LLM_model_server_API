@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-20T09:50:25 IST" name="Default suite" finished-at="2024-02-20T09:50:29 IST" duration-ms="3978">
+  <suite started-at="2024-02-20T10:12:18 IST" name="Default suite" finished-at="2024-02-20T10:12:29 IST" duration-ms="10716">
     <groups>
     </groups>
-    <test started-at="2024-02-20T09:50:25 IST" name="Default test" finished-at="2024-02-20T09:50:29 IST" duration-ms="3978">
-      <class name="SanityTesting.AtlasEditor">
-        <test-method signature="appatlas()[pri:1, instance:SanityTesting.AtlasEditor@43dac38f]" started-at="2024-02-20T09:50:25 IST" name="appatlas" finished-at="2024-02-20T09:50:26 IST" duration-ms="1563" status="PASS">
+    <test started-at="2024-02-20T10:12:18 IST" name="Default test" finished-at="2024-02-20T10:12:29 IST" duration-ms="10716">
+      <class name="SanityTesting.cellannotation_apis">
+        <test-method signature="appatlas()[pri:1, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:18 IST" name="appatlas" finished-at="2024-02-20T10:12:20 IST" duration-ms="1480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appatlas -->
-        <test-method signature="Brainviewer()[pri:2, instance:SanityTesting.AtlasEditor@43dac38f]" started-at="2024-02-20T09:50:26 IST" name="Brainviewer" finished-at="2024-02-20T09:50:27 IST" duration-ms="399" status="PASS">
+        <test-method signature="Brainviewer()[pri:2, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:20 IST" name="Brainviewer" finished-at="2024-02-20T10:12:20 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Brainviewer -->
-        <test-method signature="Contributor()[pri:3, instance:SanityTesting.AtlasEditor@43dac38f]" started-at="2024-02-20T09:50:27 IST" name="Contributor" finished-at="2024-02-20T09:50:28 IST" duration-ms="794" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Contributor -->
-        <test-method signature="appannotation()[pri:4, instance:SanityTesting.AtlasEditor@43dac38f]" started-at="2024-02-20T09:50:28 IST" name="appannotation" finished-at="2024-02-20T09:50:29 IST" duration-ms="1000" status="PASS">
+        <test-method signature="appannotation()[pri:3, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:20 IST" name="appannotation" finished-at="2024-02-20T10:12:20 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appannotation -->
-        <test-method signature="save()[pri:5, instance:SanityTesting.AtlasEditor@43dac38f]" started-at="2024-02-20T09:50:29 IST" name="save" finished-at="2024-02-20T09:50:29 IST" duration-ms="169" status="PASS">
+        <test-method signature="contributors()[pri:4, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:20 IST" name="contributors" finished-at="2024-02-20T10:12:20 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- save -->
-      </class> <!-- SanityTesting.AtlasEditor -->
+        </test-method> <!-- contributors -->
+        <test-method signature="annotatedtile()[pri:5, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:20 IST" name="annotatedtile" finished-at="2024-02-20T10:12:21 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotatedtile -->
+        <test-method signature="Wiptile()[pri:6, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:21 IST" name="Wiptile" finished-at="2024-02-20T10:12:21 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wiptile -->
+        <test-method signature="AGtile()[pri:7, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:21 IST" name="AGtile" finished-at="2024-02-20T10:12:22 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AGtile -->
+        <test-method signature="tileloading_API()[pri:8, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:22 IST" name="tileloading_API" finished-at="2024-02-20T10:12:23 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tileloading_API -->
+        <test-method signature="Celldetection_API()[pri:9, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:23 IST" name="Celldetection_API" finished-at="2024-02-20T10:12:25 IST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Celldetection_API -->
+        <test-method signature="Centroiddetection_API()[pri:10, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:25 IST" name="Centroiddetection_API" finished-at="2024-02-20T10:12:27 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Centroiddetection_API -->
+        <test-method signature="Rabbies_API()[pri:11, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:27 IST" name="Rabbies_API" finished-at="2024-02-20T10:12:28 IST" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rabbies_API -->
+        <test-method signature="Save_API()[pri:12, instance:SanityTesting.cellannotation_apis@7c711375]" started-at="2024-02-20T10:12:28 IST" name="Save_API" finished-at="2024-02-20T10:12:29 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Save_API -->
+      </class> <!-- SanityTesting.cellannotation_apis -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-20T14:44:30 IST" name="Default suite" finished-at="2024-02-20T14:44:33 IST" duration-ms="2543">
+  <suite started-at="2024-03-27T09:58:53 IST" name="Default suite" finished-at="2024-03-27T09:58:54 IST" duration-ms="1095">
     <groups>
     </groups>
-    <test started-at="2024-02-20T14:44:30 IST" name="Default test" finished-at="2024-02-20T14:44:33 IST" duration-ms="2543">
-      <class name="SanityTesting.Registration_apis">
-        <test-method signature="atlasregistration()[pri:1, instance:SanityTesting.Registration_apis@d5b810e]" started-at="2024-02-20T14:44:30 IST" name="atlasregistration" finished-at="2024-02-20T14:44:32 IST" duration-ms="1354" status="PASS">
+    <test started-at="2024-03-27T09:58:53 IST" name="Default test" finished-at="2024-03-27T09:58:54 IST" duration-ms="1095">
+      <class name="SanityTesting.apollo2_iipsrv">
+        <test-method signature="iipsrv()[pri:1, instance:SanityTesting.apollo2_iipsrv@506ae4d4]" started-at="2024-03-27T09:58:53 IST" name="iipsrv" finished-at="2024-03-27T09:58:54 IST" duration-ms="1073" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- atlasregistration -->
-        <test-method signature="getthumbnails()[pri:2, instance:SanityTesting.Registration_apis@d5b810e]" started-at="2024-02-20T14:44:32 IST" name="getthumbnails" finished-at="2024-02-20T14:44:32 IST" duration-ms="430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getthumbnails -->
-        <test-method signature="getccuser()[pri:3, instance:SanityTesting.Registration_apis@d5b810e]" started-at="2024-02-20T14:44:32 IST" name="getccuser" finished-at="2024-02-20T14:44:32 IST" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getccuser -->
-        <test-method signature="Brainviewer()[pri:4, instance:SanityTesting.Registration_apis@d5b810e]" started-at="2024-02-20T14:44:32 IST" name="Brainviewer" finished-at="2024-02-20T14:44:33 IST" duration-ms="535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Brainviewer -->
-      </class> <!-- SanityTesting.Registration_apis -->
+        </test-method> <!-- iipsrv -->
+      </class> <!-- SanityTesting.apollo2_iipsrv -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

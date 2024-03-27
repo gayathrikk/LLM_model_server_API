@@ -235,9 +235,9 @@ public class cellannotation_apis {
 	                 .post("https://apollo2.humanbrain.in/ml/predictions/ep7");
 	    	 int statusCode1 = response1.getStatusCode();
 	    	 if (statusCode1 == 200) {
-	             System.out.println("API request to centroid detection firstpass passed. Status code: " + statusCode1);
+	             System.out.println("API request to Rabbies firstpass passed. Status code: " + statusCode1);
 	         } else {
-	             System.out.println("API request to centroid detection firstpass failed. Status code: " + statusCode1);
+	             System.out.println("API request to Rabbies firstpass failed. Status code: " + statusCode1);
 	         }
 	         Assert.assertEquals(statusCode1, 200, "API request to centroid detection firstpass failed");  
 	 }

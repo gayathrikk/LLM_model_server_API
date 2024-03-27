@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SanityTesting.Registration_apis">
+      <class name="SanityTesting.Apollo3_iipsrv_api">
         <methods>
-          <include name="atlasregistration"/>
+          <include name="iipsrv"/>
         </methods>
-      </class> <!-- SanityTesting.Registration_apis -->
+      </class> <!-- SanityTesting.Apollo3_iipsrv_api -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -77,7 +77,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>SanityTesting.Apollo3_iipsrv_api</test>
+            <test>SanityTesting.Public_iipsrv_api</test>
           </configuration>
         </plugin>
       </plugins>
